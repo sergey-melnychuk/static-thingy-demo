@@ -1,0 +1,8 @@
+[package]
+name = "tracer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+once_cell = "1.21.3"
+shared = { package = "p0-shared", path = "../p0-shared" }

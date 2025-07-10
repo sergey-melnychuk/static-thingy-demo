@@ -1,0 +1,8 @@
+[package]
+name = "p3-op"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+shared = { package = "p0-shared", path = "../p0-shared" }
+tracer = { path = "../tracer" }

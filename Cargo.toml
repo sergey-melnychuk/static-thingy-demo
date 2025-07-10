@@ -1,0 +1,11 @@
+[workspace]
+resolver = "3"
+members = [
+  "p0-shared",
+  "p1-block",
+  "p2-tx",
+  "p3-op",
+  "tracer",
+  "usage",  
+]
+
