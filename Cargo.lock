@@ -42,6 +42,7 @@ version = "0.1.0"
 dependencies = [
  "once_cell",
  "p0-shared",
+ "zucchero",
 ]
 
 [[package]]
@@ -53,4 +54,13 @@ dependencies = [
  "p2-tx",
  "p3-op",
  "tracer",
+]
+
+[[package]]
+name = "zucchero"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b74a882602a4ac18739dc8a9c5c5b5dfafd0ab70fdff78f02fe9a2742138d26a"
+dependencies = [
+ "once_cell",
 ]
