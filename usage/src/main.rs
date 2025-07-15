@@ -31,7 +31,7 @@ fn main() {
         for tx in &block.txs {
             tx::handle_tx(tx);
             for op in &tx.ops {
-                op::handle_op(&op);
+                op::handle_op(op);
             }
         }
     }
