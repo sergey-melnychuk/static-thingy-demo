@@ -1,4 +1,4 @@
-use shared::{Block, Tx, Op};
+use shared::{Block, Op, Tx};
 
 fn blocks() -> Vec<Block> {
     let mut ret = Vec::new();
